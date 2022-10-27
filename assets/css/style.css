@@ -1,13 +1,14 @@
+/* This is a universal tag thing that applies to the entire body of work.*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* this tage applies to everything in the body*/
 body {
     background-color: #d9dcd6;
 }
-
+/*header classes*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +24,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*header class nav*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,16 +41,16 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*ref all links*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*all paragraphs*/
 p {
     font-size: 16px;
 }
-
+/*using a css class to load a spotlight image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +59,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*defines how to float to the left of a referenced thingi*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,13 +69,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*defines content style*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*defines aside marketing*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,7 +134,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*defines the meat and potatoes of the webpage as my gran-pappy used to say... Fun fact, he was one of the last people in MN to still use dial-up.*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -187,7 +188,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*My fav part of the webpage. The footer. I almost exclusivly use footer navigation on most web pages. Unfortunatly this section doesn't have address or contact information. Must discuss with client.*/
 .footer {
     padding: 30px;
     clear: both;
